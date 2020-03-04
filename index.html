@@ -12,8 +12,8 @@
     <title>Hello, world!</title>
     <style media="screen">
       div div {
-        background-color: plum;
-        border: 1px solid rebeccaPurple;
+        background-color: red;
+        border: 1px solid black;
       }
 
       .tall {
@@ -22,9 +22,11 @@
     </style>
   </head>
   <body>
+
     <nav class="navbar navbar-light bg-light">
       <span class="navbar-brand mb-0 h1">THE CAR DEALERSHIP YOU HAVE BEEN WAITING FOR!</span>
     </nav>
+
 
     <div class="container-fluid">
 
@@ -72,11 +74,11 @@
       <div class="row tall">
         <div class="col-lg-8 col-md-9 col-sm-12">
           <button type="button" class="btn btn-primary">JUST CICK IT!</button>
-          <h1>About Us</h1>
+          <h1>We are #1</h1>
         </div><!-- END COL DIV -->
         <div class="col-lg-4 col-md-3 col-sm-12">
           <button type="button" class="btn btn-primary">WANNA CLICK?</button>
-          <h1>We are an honored dealership known worldwide for or fine crafts and amazing deals. </h1>
+          <h1>We are an honored dealership known worldwide for our fine crafts and amazing deals. </h1>
         </div><!-- END COL DIV -->
       </div><!-- END ROW DIV -->
 
@@ -93,8 +95,63 @@
   <div class="card-body">
     <h5 class="card-title">Its a lambo</h5>
     <p class="card-text">U want one u got one cause its free</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Go to top</a>
   </div>
+</div>
+
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Your choice of car </label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Rate your experiance</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comments/Reviews</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+Submit
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalScrollableTitle"></h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    Your response has been submitted and your shipment will arrive shortly!
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+</div>
 </div>
 
 
